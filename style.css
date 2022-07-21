@@ -1,0 +1,154 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Orbitron';
+}
+
+.container {
+    height: 100vh;
+}
+nav.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.brand-logo{
+    height:40px;
+}
+
+ul.list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    /* margin: 0 auto; */
+    align-items: center;
+}
+
+li.list-item {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0 15px;
+}
+
+
+button.nav-button {
+    font-size: 18px;
+    padding: 5px 30px;
+    background: #fff;
+    border: 2px solid;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.button-group{
+    display: flex;
+}
+
+.search-icon{
+    height: 18px;
+}
+
+span.star img {
+    position: absolute;
+    right: 100px;
+    height: 50px;
+    top: 118px;
+}
+
+span.globe img {
+    position: absolute;
+    transform: translateX(570px);
+    height: 60px;
+}
+
+.hero-container {
+    display: flex;
+    /* position: relative; */
+    max-width: 1100px;
+    margin: 0 auto;
+    /* height: 100vh; */
+}
+
+
+img.parson-img {
+    /* width: 440px; */
+    height: 450px;
+}
+.hero-container-left{
+    width: 40%;
+}
+
+.hero-container-right {
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.hero-heading {
+    font-size: 45px;
+}
+
+span.square img {
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+    z-index: -1;
+    width: 320px;
+}
+
+p.hero-description {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 60px 65px;
+    font-family: system-ui;
+    color: #717070;
+}
+
+button.button-email {
+    font-size: 15px;
+    padding: 5px 30px;
+    background: #fff;
+    border: 2px solid;
+    margin-left: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: #717070;
+}
+button.button-email:hover,button.button-join:hover,button.nav-button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+button.button-join {
+    background: #fff;
+    color: #717070;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 2px solid;
+}
+
+.icons span img {
+    width: 25px;
+    margin: 0 10px;
+}
+
+h4.contact-heading {
+    font-size: 14px;
+    color: #717070;
+}
+
+.contactus-div{
+    position: absolute;
+    bottom: 0;
+}
+
+.icons {
+    padding: 10px;
+}
