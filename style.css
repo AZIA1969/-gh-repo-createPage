@@ -10,9 +10,11 @@
 }
 nav.navbar-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    max-width: 1250px;
+    margin: 0 auto;
 }
 .brand-logo{
     height:40px;
@@ -65,11 +67,10 @@ span.globe img {
 
 .hero-container {
     display: flex;
-    /* position: relative; */
     max-width: 1250px;
-    margin: 0 auto;
-    height: 80vh;
-    margin-top: 40px;
+    margin:0 auto;
+    padding:30px 0;
+   
 }
 
 
@@ -79,7 +80,10 @@ img.parson-img {
 }
 .hero-container-left{
     width: 40%;
+
 }
+
+
 
 .hero-container-right {
     width: 60%;
@@ -96,8 +100,8 @@ h1.hero-heading {
 
 span.square img {
     position: absolute;
-    bottom: 104px;
-    left: 230px;
+    bottom: -45px;
+    left: 110px;
     z-index: -1;
     width: 320px;
 }
@@ -153,3 +157,72 @@ h4.contact-heading {
 .icons {
     padding: 10px;
 }
+
+@media screen and (max-width: 1150px){
+  .navbar-container{
+    padding:20px!important;
+  }
+  .hero-container {
+    padding:30px!important;
+    /* gap: 20px; */
+  }
+}
+
+.hero-img-div{
+    position: relative;
+}
+
+
+@media screen and (max-width: 850px){
+    span.square img {
+        bottom: -50px!important;
+    left: 102px!important;
+    width: 270px!important;
+    }
+
+    img.parson-img {
+        /* width: 440px; */
+        height: 400px!important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    ul.list,.button-group{
+        display: none!important;
+    }
+
+    .hero-container{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .hero-container-right{
+        margin-top: 70px;
+    }
+
+    img.parson-img{
+        width: 330px!important; 
+    }
+
+    .contactus-div{
+        position:static;
+    }
+
+    .hero-img-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    span.square img {
+        bottom: -50px!important;
+        left: 210px!important;
+        width: 270px!important;
+    }
+    .hero-container-left,.hero-container-right{
+        width:100%;
+    }
+    
+}
+
